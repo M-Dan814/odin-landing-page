@@ -1,42 +1,79 @@
-html, body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
 .header {
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 16px;
-    font-size: 24px;
-    color: #F9FAF8
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+
+  color: #f9faf8;
 }
 
 .logo {
-    display: flex;
-    gap: 8px;
-    align-items: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 24px;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  font-size: 18px;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-around;
+  color: #f9faf8;
+  padding: 42px;
+  gap: 12px
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-style: italic;
+}
+
+.head-button {
+  width: 100px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 12px;
 }
