@@ -80,11 +80,17 @@ a {
   border-radius: 12px;
 }
 
+.head-button:hover {
+  cursor: pointer;
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
+
 .info {
   display: flex;
   flex-direction: column;
   padding: 48px;
-  gap: 24px
+  gap: 24px;
 }
 
 .heading {
@@ -111,28 +117,27 @@ a {
   border-radius: 24px;
 }
 
-
 .quotebox {
-    padding: 100px 300px;
-    display: flex;
-    background-color: #EFE7EB;
-    flex-direction: column;
+  padding: 100px 300px;
+  display: flex;
+  background-color: #efe7eb;
+  flex-direction: column;
 }
 
 .quote-text {
-    display: flex;
-    margin: auto;
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-    font-weight: 100;
+  display: flex;
+  margin: auto;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 100;
 }
 
 .quote-author {
-    display: flex;
-    font-size: 24px;
-    font-weight: 700;
-    justify-content: flex-end;
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  justify-content: flex-end;
 }
 
 .sign-up {
@@ -178,7 +183,7 @@ a {
   width: 80px;
 }
 
-.sign-button:hover{
+.sign-button:hover {
   cursor: pointer;
   background-color: #e5e7eb;
   color: #3882f6;
