@@ -35,6 +35,7 @@ ul {
   margin: 0;
   padding: 0;
   gap: 16px;
+  font-weight: 100;
   font-size: 18px;
 }
 
@@ -132,4 +133,53 @@ a {
     font-size: 24px;
     font-weight: 700;
     justify-content: flex-end;
+}
+
+.sign-up {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-cont {
+  border-radius: 16px;
+  width: 70%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  font-size: 30px;
+  color: #f9faf8;
+}
+
+.sub-head {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-button {
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+}
+
+.sign-button:hover{
+  cursor: pointer;
+  background-color: #e5e7eb;
+  color: #3882f6;
 }
