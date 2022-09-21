@@ -183,3 +183,13 @@ a {
   background-color: #e5e7eb;
   color: #3882f6;
 }
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
